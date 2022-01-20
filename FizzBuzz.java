@@ -1,3 +1,4 @@
+package java1;
 public class FizzBuzz {
     public static void main(String[] args) {
 
@@ -12,13 +13,13 @@ public class FizzBuzz {
 
             for (int i = 1; i <= num; i++) {
                 if (i % 5 == 0 && i % 3 == 0) {
-                    System.out.println("Fizzbuzz");
+                    System.out.print("Fizzbuzz ");
                 } else if (i % 5 == 0) {
-                    System.out.println("Buzz");
+                    System.out.print("Buzz ");
                 } else if (i % 3 == 0) {
-                    System.out.println("Fizz");
+                    System.out.print("Fizz ");
                 } else {
-                    System.out.println(i);
+                    System.out.print(i + " ");
                 }
             }
         }
